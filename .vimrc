@@ -37,9 +37,3 @@ map <F12> :BufExplorer<CR>
 
 " Configuracion de Taglist
 map <F3> <Esc>:TlistToggle<CR>
-
-let g:github_termcolors=256
-
-colorscheme github
-
-
