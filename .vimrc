@@ -18,7 +18,7 @@ set bs=indent,eol,start
 set incsearch
 set nowrap
 
-"set mouse=a
+set mouse=n
 
 " Configuracion de NerdTree
 map <F2> <Esc>:NERDTreeToggle<CR> 
@@ -37,3 +37,7 @@ map <F12> :BufExplorer<CR>
 
 " Configuracion de Taglist
 map <F3> <Esc>:TlistToggle<CR>
+
+" Directorios para los archivos temporales
+set backupdir=~/.vimbackup
+set directory=~/.vimswap
