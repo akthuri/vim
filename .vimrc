@@ -35,8 +35,8 @@ map <F11> :CommandT<CR>
 " Configuracion de Buffer Explorer
 map <F12> :BufExplorer<CR>
 
-" Configuracion de Taglist
-map <F3> <Esc>:TlistToggle<CR>
+" Configuracion de MRU
+map <F3> <Esc>:MRU<CR>
 
 " Directorios para los archivos temporales
 set backupdir=~/.vimbackup
